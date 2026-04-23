@@ -1,0 +1,38 @@
+[
+  {
+    "technique": "zero_shot",
+    "accuracy": 0.65,
+    "precision": 0.2727,
+    "recall": 0.45,
+    "f1": 0.3396,
+    "parse_errors": 4,
+    "n_samples": 100
+  },
+  {
+    "technique": "cot",
+    "accuracy": 0.76,
+    "precision": 0.3571,
+    "recall": 0.25,
+    "f1": 0.2941,
+    "parse_errors": 13,
+    "n_samples": 100
+  },
+  {
+    "technique": "few_shot",
+    "accuracy": 0.72,
+    "precision": 0.4048,
+    "recall": 0.85,
+    "f1": 0.5484,
+    "parse_errors": 1,
+    "n_samples": 100
+  },
+  {
+    "technique": "cot_few_shot",
+    "accuracy": 0.71,
+    "precision": 0.3448,
+    "recall": 0.5,
+    "f1": 0.4082,
+    "parse_errors": 13,
+    "n_samples": 100
+  }
+]
