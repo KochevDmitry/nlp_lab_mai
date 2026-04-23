@@ -1,0 +1,11 @@
+version: "3.9"
+ 
+services:
+  llm-service:
+    build: .
+    container_name: llm-service
+    ports:
+      - "8000:8000"
+      - "11435:11434"
+    restart: unless-stopped
+ 
